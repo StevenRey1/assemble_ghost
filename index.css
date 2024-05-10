@@ -1,0 +1,62 @@
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Estilo para cada comparación de imágenes */
+  .browser {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%; /* Permitir que el contenedor crezca al 100% del ancho del padre */
+    max-width: 90%; /* Ajustar para permitir flexibilidad */
+  }
+  
+  /* Estilo para el encabezado de cada comparación */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para las líneas de imágenes */
+  .imgline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Estilo para cada contenedor de imagen */
+  .imgcontainer {
+    flex: 1; /* Asegurar distribución equitativa */
+    text-align: center;
+    min-width: 200px; /* Añadir un ancho mínimo */
+  }
+  
+  /* Estilo para el nombre de cada imagen */
+  .imgname {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px; /* Ajustar márgenes para mayor claridad */
+    margin-bottom: 10px;
+  }
+  
+  /* Colocar la imagen comparada en la fila de abajo */
+  .imgcontainer-compare {
+    text-align: center;
+    margin-top: 20px; /* Espacio entre filas */
+  }
+  
+  /* Estilo para las imágenes */
+  img {
+    max-width: 100%; /* Para evitar que las imágenes se desborden */
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
